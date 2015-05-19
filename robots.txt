@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /stats
+Disallow: /dbboon
+Disallow: /chmtool/pad.xml
+Disallow: /minifolderbackup/pad.xml
+Allow: /
+

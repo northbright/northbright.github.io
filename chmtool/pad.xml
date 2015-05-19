@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>3.11</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 3.1.1.47 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://pad.asp-software.org</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>NorthBright</Company_Name>
+		<Address_1>Shanghai, China</Address_1>
+		<Address_2 />
+		<City_Town>Shanghai</City_Town>
+		<State_Province>Shanghai</State_Province>
+		<Zip_Postal_Code>200000</Zip_Postal_Code>
+		<Country>China</Country>
+		<Company_WebSite_URL>http://www.northbright.com</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>Frank</Author_First_Name>
+			<Author_Last_Name>Xu</Author_Last_Name>
+			<Author_Email>support@northbright.com</Author_Email>
+			<Contact_First_Name>Frank</Contact_First_Name>
+			<Contact_Last_Name>Xu</Contact_Last_Name>
+			<Contact_Email>support@northbright.com</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>paypal@northbright.com</Sales_Email>
+			<Support_Email>support@northbright.com</Support_Email>
+			<General_Email>support@northbright.com</General_Email>
+			<Sales_Phone />
+			<Support_Phone />
+			<General_Phone />
+			<Fax_Phone />
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>NorthBright CHM Tool</Program_Name>
+		<Program_Version>1.0.1.523</Program_Version>
+		<Program_Release_Month>12</Program_Release_Month>
+		<Program_Release_Day>02</Program_Release_Day>
+		<Program_Release_Year>2010</Program_Release_Year>
+		<Program_Cost_Dollars>0</Program_Cost_Dollars>
+		<Program_Cost_Other_Code />
+		<Program_Cost_Other />
+		<Program_Type>Freeware</Program_Type>
+		<Program_Release_Status>Minor Update</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>Win2000,Win7 x32,WinVista,WinXP</Program_OS_Support>
+		<Program_Language>English,Chinese,ChineseSimplified,ChineseTraditional,French</Program_Language>
+		<Program_Change_Info />
+		<Program_Specific_Category>Development Tools</Program_Specific_Category>
+		<Program_Category_Class>Development::Help Tools</Program_Category_Class>
+		<Program_System_Requirements>No special system requirement</Program_System_Requirements>
+		<File_Info>
+			<File_Size_Bytes>1447193</File_Size_Bytes>
+			<File_Size_K>1413</File_Size_K>
+			<File_Size_MB>1.38</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>N</Has_Expire_Info>
+			<Expire_Count />
+			<Expire_Based_On />
+			<Expire_Other_Info />
+			<Expire_Month />
+			<Expire_Day />
+			<Expire_Year />
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>CHM Decompiler Save Convert Page HTML MHT</Keywords>
+			<Char_Desc_45>Decompile CHM files, save page as html/mht.</Char_Desc_45>
+			<Char_Desc_80>A program that can decompile CHM files and save current page as HTML/MHT file.</Char_Desc_80>
+			<Char_Desc_250>NorthBright CHM Tool is a simple tool to decompile(extract) CHM files and extract the current page of a currently open CHM file and save it to HTML, MHT or Text format. </Char_Desc_250>
+			<Char_Desc_450>NorthBright CHM Tool is a simple tool to decompile(extract) CHM files. You can either decompile an entire file by selecting the CHM file and extracting the content into a folder of your choice, or you can extract the current page of a currently open CHM file and save it to HTML, MHT or Text format. </Char_Desc_450>
+			<Char_Desc_2000>NorthBright CHM Tool is a simple tool to decompile(extract) CHM files. You can either decompile an entire file by selecting the CHM file and extracting the content into a folder of your choice, or you can extract the current page of a currently open CHM file and save it to HTML, MHT or Text format. 
+Features:
+1. Large size CHM files supported.
+2. Save current page in currently open CHM File as HTML/MHT file.</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://www.northbright.com</Application_Info_URL>
+			<Application_Order_URL>http://www.northbright.com</Application_Order_URL>
+			<Application_Screenshot_URL>http://www.northbright.com/chmtool/images/screenshot_01.png</Application_Screenshot_URL>
+			<Application_Icon_URL>http://www.northbright.com/chmtool/images/icon_32.png</Application_Icon_URL>
+			<Application_XML_File_URL>http://www.northbright.com/chmtool/pad.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://www.northbright.com/chmtool/setup.exe</Primary_Download_URL>
+			<Secondary_Download_URL />
+			<Additional_Download_URL_1>http://www.northbright.com/chmtool/chmtool.zip</Additional_Download_URL_1>
+			<Additional_Download_URL_2 />
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions />
+		<EULA>NorthBright CHM Tool License
+=============================
+
+Except where otherwise noted, all of the documentation and software included
+in the NorthBright CHM Tool package is copyrighted by North Bright.
+
+Copyright (C) 2010 NorthBright. All rights reserved.
+
+This software is provided "as-is," without any express or implied warranty.
+In no event shall the author be held liable for any damages arising from the
+use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and redistribute it,
+provided that the following conditions are met:
+
+1. All copyrights to NorthBright CHM Tool are exclusively owned by NorthBright.
+
+2. You may not use, copy, emulate, clone, rent, lease, sell, modify,
+   decompile, disassemble, otherwise reverse engineer, or transfer
+   the licensed program, or any subset of the licensed program, except
+   as provided for in this agreement. Any such unauthorized use shall
+   result in immediate and automatic termination of this license and
+   may result in criminal and/or civil prosecution.
+
+NorthBright
+support@northbright.com
+http://www.northbright.com/
+</EULA>
+	</Permissions>
+</XML_DIZ_INFO>

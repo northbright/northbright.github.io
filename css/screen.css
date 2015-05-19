@@ -1,0 +1,789 @@
+/*----------------------------------------------------
+Main Css
+----------------------------------------------------*/
+
+/* Remove Ads
+================================== */
+#conash3D0 {
+display:none;
+}
+
+/* Common Styles
+================================== */
+
+/* Zero down margin and paddin on all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0px;
+  font: 12px Tahoma, Arial, sans-serif;
+  background: url(../images/body_bk.png) repeat-x left top #dcdcdc;
+}
+
+img {
+  border: 0px;
+}  
+
+h1 {
+	font: bold 36px Tahoma, serif;
+	color: #1F4374;
+	margin: 0;
+}
+
+h2 {
+  font: bold 30px Tahoma, serif;
+  color: #1F4374;
+  margin: 0;
+}
+
+h3 {
+  font: bold 24px Tahoma, serif;
+  color: #1F4374;
+  margin: 0;
+}
+
+h4 {
+  font: bold 20px Tahoma, serif;
+  color: #1F4374;
+  margin: 0;
+}
+
+li {
+	font: normal 18px Tahoma, serif;
+	color: #1F4374;
+	margin: 0;
+}
+
+p {
+  font: normal 12px Courier New;
+  color: #000000;
+}	
+
+
+a:link, a:visited {
+	/*color: #48546A;*/
+	color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+	/*color: #48546A;*/
+	color: #000000;
+	text-decoration: underline;
+}
+
+
+
+
+/*--------------------------------------------
+Layout
+---------------------------------------------*/
+
+#wrapper {
+  width: 840px;
+  margin: 5px auto;
+  background-color: #ffffff;
+}
+
+#branding {
+  width: 838px;
+  height: 148px;
+  text-align: left;
+  margin-bottom: 1px;
+  background: #fff url(../images/banner.png) no-repeat left top;
+  border: solid 1px #cccccc;
+}  
+
+#navBar {
+  width: 840px;
+  height: 43px;
+  float: left;
+  background: #fff url(../images/nav_bar.png) no-repeat left top;
+}  
+
+.navBarItem {
+  width: 99px;
+  height: 43px;
+  float: left;
+  line-height: 43px;
+  text-align: center;
+  border-right: solid 1px #cccccc;
+}
+
+#content {
+  width: 838px;
+  float: left;
+  text-align: left;
+  background-color: #ffffff;
+  border-left: solid 1px #cccccc;
+  border-right: solid 1px #cccccc;
+}
+
+#left { 
+  width: 190px;
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding-left: 4px;
+  padding-right: 4px;
+  background-color: #ffffff;
+  border-right: solid 1px #cccccc;
+}
+
+#left ul {
+  list-style-type: none;
+}  
+
+#right {
+  width: 580px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 20px;
+  background-color: #ffffff;
+}
+
+#footer {
+  width: 838px;
+  float: left;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+  border: solid 1px #cccccc;
+  /*background-color: #ffffff;*/
+  background-color: #E0E2FF;
+}
+
+/*--------------------------------------------
+Home Page
+---------------------------------------------*/
+.welcome {
+  width: 580px;
+  float: left;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #cccccc;
+}  
+
+.welcomeTitle {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+  font: 18px Arial bold;
+  color: #48546A;
+}
+
+a.welcomeTitleLink:link, a.welcomeTitleLink:visited {
+  color: #48546A;
+  text-decoration: none;
+}  
+
+a.welcomeTitleLink:hover {
+  color: #48546A;
+  text-decoration: underline;
+}  
+
+.welcomeContent {
+  float: left top;
+}
+
+.welcomeContentLeft {
+  float: left;
+  width: 80px;
+}
+
+.welcomeContentRight {
+  float: left;
+  width: 500px;
+}    
+
+.welcomeImage {
+  float: left;
+  margin-right: 4px;
+}
+
+.welcomeDesc {
+  float: left top;
+  margin-left: 4px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  text-align: left;
+  font: 12px Arial;
+}  
+
+a.welcomeContentLink:link, a.welcomeContentLink:visited {
+  color: #3683C8;
+  text-decoration: none;
+}  
+
+a.welcomeContentLink:hover {
+  color: #3683C8;
+  text-decoration: underline;
+}  
+
+
+/*--------------------------------------------
+Product & Download Page
+---------------------------------------------*/
+.product {
+  width: 580px;
+  float: left;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #cccccc;
+}  
+
+.productTitle {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+  font: 18px Arial bold;
+  color: #48546A;
+}
+
+a.productTitleLink:link, a.productTitleLink:visited {
+  color: #48546A;
+  text-decoration: none;
+}  
+
+a.productTitleLink:hover {
+  color: #48546A;
+  text-decoration: underline;
+}  
+
+.productContent {
+  float: left top;
+}  
+
+.productContentLeft {
+  float: left;
+  width: 60px;
+}
+
+.productContentRight {
+  float: left;
+  width: 520px;
+}  
+
+.productIcon {
+  float: left;
+  padding: 2px 4px;
+}  
+
+.productDesc {
+  float: left;
+  overflow: hidden;
+  padding: 4px;
+  text-align: left;
+  font: 12px Arial;
+  text-indent: 10px;
+  width: 98%;
+}
+
+.downloadDesc {
+  float: left;
+  padding: 4px;
+  text-align: left;
+  font: 12px Arial;
+}  
+
+.downloadInfo {
+  clear: none;
+  width: 90%;
+  float: left;
+  height: 20px;
+  line-height: 20px;
+}  
+
+.downloadInfoTitle {
+  float: left;
+  width: 100px;
+  padding: 4px;
+  text-align: left;
+  font: 12px Arial;
+}
+
+.downloadInfoContent {
+  float: left;
+  padding: 4px;
+  text-align: left;
+  font: 12px Arial;
+}
+
+.feature {
+  float: left;
+}
+
+.featureTitle {
+  float: left;
+  width: 100%;
+  font: bold 14px Arial;
+  color: #48546A
+}
+
+.featureItem {
+  float: left;
+  width: 90%;
+  margin-top: 4px;
+}    
+
+.releaseNotes {
+  float: left;
+  width: 90%;
+  padding: 4px;
+}
+
+.releaseNotesItem {
+  float: left;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.releaseNotesItemTitle {
+  float: left;
+  width: 100%;
+  padding-left: 4px;
+  font: bold 12px Arial;  
+}
+
+.releaseNotesItemTitleLeft {
+  float: left;
+}
+
+.releaseNotesItemTitleRight {
+  float: left;
+  color: #cccccc;
+  font: normal 12px Arial;
+}    
+
+.releaseNotesItemContent {
+  float: left;
+  width: 100%;
+  padding-left: 4px;
+}    
+
+.screenshot {
+  float: left;
+  padding-bottom: 20px;
+}
+
+.screenshotTitle {
+  float: left;
+  width: 100%;
+  padding-bottom: 5px;
+  font: bold 14px Arial;
+  color: #48546A
+}
+
+.screenshotItem {
+  float: left;
+  width: 100%;
+}    
+
+.review {
+  float: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.reviewTitle {
+  float: left;
+  width: 100%;
+  padding-bottom: 5px;
+  font: bold 14px Arial;
+  color: #48546A
+}
+
+a.reviewLink:link, a.reviewLink:visited {
+  color: #48546A;
+  text-decoration: none;
+}  
+
+a.reviewLink:hover {
+  color: #48546A;
+  text-decoration: underline;
+}  
+
+.reviewItem {
+  float: left;
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.help {
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.helpTitle {
+  float: left;
+  width: 100%;
+  padding-bottom: 5px;
+  font: bold 14px Arial;
+  color: #48546A
+}
+
+a.helpLink:link, a.helpLink:visited {
+  color: #48546A;
+  text-decoration: none;
+}  
+
+a.helpLink:hover {
+  color: #48546A;
+  text-decoration: underline;
+}  
+
+.helpItem {
+  float: left;
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+
+/*--------------------------------------------
+Donation Page
+---------------------------------------------*/
+.donation {
+  width: 580px;
+  float: left;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #cccccc;
+}  
+
+.donationTitle {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+  font: 18px Arial bold;
+  color: #48546A;
+}
+
+a.donationTitleLink:link, a.donationTitleLink:visited {
+  color: #48546A;
+  text-decoration: none;
+}  
+
+a.donationTitleLink:hover {
+  color: #48546A;
+  text-decoration: underline;
+}  
+
+.donationContent {
+  float: left top;
+}
+
+.donationContentLeft {
+  float: left;
+  width: 80px;
+}
+
+.donationContentRight {
+  float: left;
+  width: 500px;
+}    
+
+.donationImage {
+  float: left;
+  margin-right: 4px;
+}
+
+.donationDesc {
+  float: left top;
+  margin-left: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  text-align: left;
+  font: 12px Arial;
+}  
+
+.donationSpecialThanks {
+  float: left top;
+  margin-left: 4px;
+  margin-top: 18px;
+  margin-bottom: 4px;
+  text-align: left;
+  font: 12px Arial;
+  color: #48546A;
+}
+
+.donationUserList
+{
+  font: 12px;
+  margin-left: 4px;
+  color: #48546A;
+}  
+
+a.donationContentLink:link, a.donationContentLink:visited {
+  color: #3683C8;
+  text-decoration: none;
+}  
+
+a.donationContentLink:hover {
+  color: #3683C8;
+  text-decoration: underline;
+}  
+
+.donationButton {
+  float: left;
+  margin-top: 10px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+
+/*--------------------------------------------
+About Page
+---------------------------------------------*/
+.about {
+  width: 580px;
+  float: left;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #cccccc;
+}  
+
+.aboutTitle {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+  font: 18px Arial bold;
+  color: #48546A;
+}
+
+a.aboutTitleLink:link, a.aboutTitleLink:visited {
+  color: #48546A;
+  text-decoration: none;
+}  
+
+a.aboutTitleLink:hover {
+  color: #48546A;
+  text-decoration: underline;
+}  
+
+.aboutContent {
+  float: left top;
+}
+
+.aboutContentLeft {
+  float: left;
+  width: 80px;
+}
+
+.aboutContentRight {
+  float: left;
+  width: 500px;
+}    
+
+.aboutImage {
+  float: left;
+  margin-right: 4px;
+}
+
+.aboutDesc {
+  float: left top;
+  margin-left: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  text-align: left;
+  font: 12px Arial;
+}  
+
+a.aboutContentLink:link, a.aboutContentLink:visited {
+  color: #3683C8;
+  text-decoration: none;
+}  
+
+a.aboutContentLink:hover {
+  color: #3683C8;
+  text-decoration: underline;
+}  
+
+/*--------------------------------------------
+Privacy Page
+---------------------------------------------*/
+.privacy {
+  width: 580px;
+  float: left;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #cccccc;
+}  
+
+.privacyTitle {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+  font: 18px Arial bold;
+  color: #48546A;
+}
+
+a.privacyTitleLink:link, a.privacyTitleLink:visited {
+  color: #48546A;
+  text-decoration: none;
+}  
+
+a.privacyTitleLink:hover {
+  color: #48546A;
+  text-decoration: underline;
+}  
+
+.privacyContent {
+  float: left top;
+}
+
+.privacyContentLeft {
+  float: left;
+  width: 80px;
+}
+
+.privacyContentRight {
+  float: left;
+  width: 500px;
+}    
+
+.privacyImage {
+  float: left;
+  margin-right: 4px;
+}
+
+.privacyDesc {
+  float: left top;
+  margin-left: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  text-align: left;
+  font: 12px Arial;
+}  
+
+a.privacyContentLink:link, a.privacyContentLink:visited {
+  color: #3683C8;
+  text-decoration: none;
+}  
+
+a.privacyContentLink:hover {
+  color: #3683C8;
+  text-decoration: underline;
+}  
+
+
+/*--------------------------------------------
+Button Class
+---------------------------------------------*/
+
+.button {
+  width: 122px;
+  height: 26px;
+  float: left;
+  text-align: center;
+  line-height: 26px;
+  margin-top: 10px;
+  margin-left: 4px;
+  margin-right: 4px;
+  background: #fff url(../images/button.png) no-repeat left top;
+}
+
+/*--------------------------------------------
+Column Class
+---------------------------------------------*/
+
+.column {
+  float: left;
+  width: 190px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.columnTitle {
+  float: left;
+  width: 190px;
+  height: 32px;
+  text-align: left;
+  text-indent: 14px;
+  line-height: 32px;
+  background: #fff url(../images/column_title.png) no-repeat left top;
+}
+
+.columnItem {
+  float: left;
+  width: 180px;
+  padding-left: 2px;
+  padding-top: 4px;
+}
+
+.navColumnItem {
+  float: left;
+  width: 170px;
+  padding-left: 18px;
+  padding-top: 4px;
+}  
+  
+.columnItem img {
+  margin-right: 2px;
+}
+
+
+/*--------------------------------------------
+News Class
+---------------------------------------------*/
+.newsDate {
+  float: left;
+  width: 190px;
+  color: #cccccc;
+}
+
+.newsContent {
+  clear: both;
+  float: left;
+  width: 190px;
+}    
+
+
+/* PayPal Form
+================================== */
+
+.payPal {
+  margin-top: 11px;
+}
+
+/* Donate Form
+================================== */
+.donateForm {
+  float: left;
+}
+
+
+/* BrandingLink
+================================== */
+
+a.brandingLink:link, a.brandingLink:visited {
+  font: 18px Candara;
+  color: #ffffff;
+  text-decoration: none;
+}  
+
+a.brandingLink:hover {
+  font: 18px Candara;
+  color: #ffffff;
+  text-decoration: underline;
+}  
+
+
+/* FooterLink
+================================== */
+/*
+a.footerLink:link, a.footerLink:visited {
+  color: #48546A;
+}  
+
+a.footerLink:hover {
+  color: #48546A;
+  text-decoration: underline;
+}*/ 
