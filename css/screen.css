@@ -685,6 +685,7 @@ Button Class
   text-align: center;
   line-height: 26px;
   margin-top: 10px;
+  margin-bottom: 8px;
   margin-left: 4px;
   margin-right: 4px;
   background: #fff url(../images/button.png) no-repeat left top;
